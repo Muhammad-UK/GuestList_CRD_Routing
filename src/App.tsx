@@ -63,7 +63,7 @@ const App = () => {
   };
 
   return (
-    <div>
+    <div className="appRoot">
       <h1>Welcome to the Guest List!</h1>
       <nav>
         <Link to={"/"} className={pathname === "/" ? "selected" : ""}>

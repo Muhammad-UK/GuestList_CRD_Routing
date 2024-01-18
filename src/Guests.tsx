@@ -7,8 +7,9 @@ const Guests = ({ guests, deleteGuest }: GuestsProps) => {
       {guests.map((guest) => {
         return (
           <section key={guest.id}>
-            <h2>{guest.name}</h2>
-            <Link to={`/guests/${guest.id}`}>{guest.name}</Link>
+            <Link className="guestLink" to={`/guests/${guest.id}`}>
+              <h2>{guest.name}</h2>
+            </Link>
             <button onClick={() => deleteGuest(guest)}>Delete</button>
           </section>
         );

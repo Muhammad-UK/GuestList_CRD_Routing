@@ -9,7 +9,7 @@ const GuestDetail = ({ guests }: GuestDetailProps) => {
   if (guest) {
     return (
       <div>
-        <h2>Guest Detail</h2>
+        <h2>Guest Detail:</h2>
         <h3>{guest.name}</h3>
         <p>Email: {guest.email}</p>
         <p>Phone: {guest.phone}</p>

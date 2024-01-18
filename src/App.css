@@ -1,0 +1,67 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: antiquewhite;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.appRoot {
+  width: 65%;
+  margin: auto;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+nav > a {
+  padding: 2rem;
+  border: 2px solid black;
+  width: 50%;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.5rem;
+}
+nav > a:hover {
+  background: rgba(255, 255, 255, 0.6);
+}
+nav > a:active {
+  background-color: darkolivegreen;
+  color: black;
+}
+.guests {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+section {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  flex-flow: column wrap;
+  border: 2px solid black;
+  padding: 1rem;
+  margin: 0.25rem;
+}
+.guestLink {
+  text-decoration: none;
+  padding: 0.5rem;
+  border: 2px solid black;
+  color: black;
+}
+.guestLink:hover {
+  background: rgba(255, 255, 255, 0.6);
+}
+.guestLink:active {
+  background-color: darkolivegreen;
+}
+form > input {
+  padding: 0.5rem;
+}
+form {
+  display: flex;
+  border: 2px solid black;
+  justify-content: space-around;
+}
