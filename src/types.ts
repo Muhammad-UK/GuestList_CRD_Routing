@@ -16,3 +16,6 @@ export type CreatedGuestData = {
 export type CreateGuestProps = {
     createGuest: (guest: CreatedGuestData) => void;
 }
+export type GuestDetailProps = {
+    guests: GuestsData[];
+}
